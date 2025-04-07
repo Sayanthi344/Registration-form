@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  color: #666;
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Buttons */
+.clearfix {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signupbtn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.signupbtn:hover {
+  background-color: #45a049;
+}
+
+.cancelbtn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancelbtn:hover {
+  background-color: #e31e14;
+}
+
+/* Terms and Privacy */
+p a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
